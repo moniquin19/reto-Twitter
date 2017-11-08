@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;	
+	box-sizing: border-box; 
+	font-family: "courier new";
+}
+
+body {
+	background-image: url('../assets/img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	width: 100%;
+	height: 40px;
+	background: #6FD2F1;
+}
+
+header img {
+	width: 100px;
+	height: 30px;
+	margin-left: 550px;
+}
+
+.reto, .form {
+	display: inline-block;
+	
+}
+
+.reto {
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 50px;	
+}
+
+.reto1 {
+	padding-top: 60px;
+	padding-left: 15px;
+	line-height: 2;
+}
+
+h4 {
+	font-size: 15px; 
+	
+}
+
+hr {
+	border: 1px solid #F8F8F9;
+}
+
+.l4 {
+	color: #6E8E9F;
+}
+
+.form {
+	width: 500px;
+	height: 250px;
+	background-color: #fff;
+	margin-top: 25px;
+	margin-right: 150px;	
+	float: right;
+	padding: 25px 5px;	
+
+}
+
+#message {
+	border: none;
+	width: 490px;
+	height: 80px;
+}	
+
+.line {
+	border: 1px solid blue;
+	margin:  0px 15px
+
+}
+
+input#button {
+	background-color: #6FD2F1;
+	color: white;
+	min-width: 90px;
+	min-height: 40px;
+	margin-top: 10px;
+
+}
+
+.char {
+	float: left;
+	color: black;
+}
